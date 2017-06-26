@@ -1,0 +1,116 @@
+.ui-page-theme-a .ui-bar-inherit {
+	background-color: hsl(203, 84%, 57%);
+	border: none;
+}
+
+.ui-page-theme-a .ui-bar-inherit {
+	color: #FFF;
+	text-shadow: none;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+    letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.ui-page-theme-a {
+	background-color: #1775ff;
+	background-image: -webkit-linear-gradient(332deg, #1775ff, #31dbd2 98%);
+	background-image: linear-gradient(118deg, #1775ff, #31dbd2 98%);
+}
+
+.ui-page-theme-a .ui-btn {
+	background: none;
+	border-color: #fff;
+}
+
+
+.ui-page-theme-a .ui-btn:hover {
+	background: none;
+	border-color: #fff;
+}
+
+input[type="number"]
+{
+	-moz-appearance:textfield;
+}
+
+.ui-page-theme-a .ui-body-inherit {
+	background: none;
+	border: none;
+	text-shadow: none;
+	box-shadow: none;
+
+}
+
+#myForm input {
+	height: 50px;
+    padding-left: 30px;
+    border-bottom-width: 0px;
+    border-radius: 500px;
+    background-color: hsla(0, 0%, 95%, .1);
+    color: #fff;
+    font-size: 14px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+
+.btn-calc {
+	border-radius: 50px;
+    border: none;
+    text-shadow: none !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    font-weight: normal !important;
+    letter-spacing: 1px;
+    background-color: #1775ff !important;
+}
+
+.ui-result-body {
+	background: #fff !important;
+}
+
+.ui-listview>li p {
+	white-space: normal;
+}
+
+#nImc {
+	display: inline-block;
+	text-align: left;
+	font-size: 1em;
+	margin-right: 5px;
+	margin-bottom: 0px;
+}
+
+#descricao {
+	display: inline-block;
+	font-size: 1em;
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #1f94f1;
+}
+
+#ImcDelete {
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: -2px;
+	font-size: 0.9em;
+	border-bottom:1px dashed #ccc;
+	padding-bottom: 8px;
+}
+
+#ImcDelete a {
+	color: red;
+}

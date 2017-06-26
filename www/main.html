@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora de IMC</title>
+	<link rel="stylesheet" href="css/jqm/jquery.mobile-1.4.5.min.css" />	
+	<link rel="stylesheet" href="css/jqm/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jqm/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/main.css"/>
+	<script src="js/jqm/jquery.js"></script>
+	<script src="js/jqm/jquery.mobile-1.4.5.min.js"></script>
+	<script src="jqm_globalsetup.js"></script>
+	<script src="cordova.js"></script>
+</head>
+<body>
+
+	<div id="main" data-role="page">
+			<script type="text/javascript" src="main.js"></script>
+
+			<div data-role="header" data-position="fixed"> 				
+				<h1 style="margin-left:auto;margin-right:auto">Calculadora de IMC</h1>
+				<a href="about.html" class=" ui-btn-right ui-btn ui-icon-info ui-btn-icon-notext ui-corner-all">No text</a>
+			</div>
+			<div data-role="main" class="ui-content" >  
+				<form name="myForm" id="myForm">
+					<input id="txtAltura" placeholder="Altura em metros" type="number" step= "0.01"  min= "0.5" max="2.52" required/>
+					<input id="txtPeso" placeholder="Peso em Kg" type="number" step=0.01 / min="10" max="250" required>  					
+				</form>
+			</div>
+			<div data-role="footer" data-position="fixed" >
+				<div style="text-align:center">
+					<a onclick='calcular();'  style="width:80%" class="btn-calc ui-btn ui-shadow">Calcular</a>				
+				</div>
+			</div>
+	</div>
+</body>
